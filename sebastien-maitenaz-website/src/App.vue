@@ -4,7 +4,7 @@ import headerItems from './components/headerItems.vue'
 export default {
   components : { headerItems },
   data(){
-    const backgroundImagePath = "../public/photos/background/"  
+    const backgroundImagePath = "/photos/background/"  
     const imageNames = ["Bioux.jpg","CimeGrappa.jpg","Corse.jpg","Pyrenees.jpg"]
     const images = imageNames.map(name => backgroundImagePath + name)
     return {
